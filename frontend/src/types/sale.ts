@@ -1,7 +1,13 @@
 
 type SaleSum = {
-    sellername: string,
-    sum: number
+    sellername: string;
+    sum: number;
 }
 
-export type {SaleSum}
+type SaleSuccess = {
+    sellername: string;
+    visited: number;
+    deals: number;
+}
+
+export type {SaleSum,SaleSuccess}
