@@ -1,11 +1,11 @@
 
 type SaleSum = {
-    sellername: string;
+    sellerName: string;
     sum: number;
 }
 
 type SaleSuccess = {
-    sellername: string;
+    sellerName: string;
     visited: number;
     deals: number;
 }
